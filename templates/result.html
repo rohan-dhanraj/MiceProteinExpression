@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Result</title>
+<script src="{{ url_for('static', filename='js/results.js') }}"> </script>
+{% endblock %}
+
+{% block body %}
+<h1>Result</h1>
+<form id="formID" method="POST" action="/">
+	<div align="center">
+		<table style="width:50%">
+			<tbody>
+				<tr>
+					<td>Genotype </td>
+					<td><input type="text" id="genotype" name="genotype" readonly /></td>
+				</tr>
+				<tr>
+					<td>Behavior</td>
+					<td><input type="text" id="behavior" name="behavior" readonly /></td>
+				</tr>
+				<tr>
+					<td>Treatment</td>
+					<td><input type="text" id="treatment" name="treatment" readonly /></td>
+				</tr>
+				<tr>
+					<td>Mice Class</td>
+					<td><input type="text" id="miceClass" name="miceClass" readonly /></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div align="right">
+		<input type="submit" value="Back" class="button">
+	</div>
+</form>
+{% endblock %}

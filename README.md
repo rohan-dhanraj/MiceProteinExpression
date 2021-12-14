@@ -83,7 +83,7 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin <repo URL>
+git remote add origin https://github.com/rohandhanraj/Admission_Prediction
 git push -u origin main
 ```
 ## Deploying on Heroku

@@ -1,0 +1,71 @@
+body {
+  background-color: #4e1d6bf5;
+  background-image: url("https://www.thesprucepets.com/thmb/6QZx_68S44aDkoMKMhOB2ygoiMk=/3776x2832/smart/filters:no_upscale()/cute-white-rat-120691475-58a5f3ea5f9b58a3c9067915.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  h1 {
+      text-align: center;
+      color: #f1f3f3
+  }
+  
+  table {
+    width: 90%;
+    height:300px;
+    background-color: #958af8;
+    opacity: 0.5;
+
+  }
+  table td, table th {
+    border: 1px solid;
+    color: #021011;
+    padding: 9px;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  table input{
+    opacity: 1;
+  }
+  table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  table th {
+    background-color: #daeff1;
+    font-weight: 300;
+  }
+  
+  .button {
+    background-color: #16575d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+.errorMessage {
+  border: 2px solid red;
+}
+
+.successMessage {
+  border: 2px solid #9c0cf0;
+}
+input{
+  opacity: 0.3;
+  border: 1px rgb(5, 5, 5) solid;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  background-color:#fff;
+  font-family: 'Roboto', sans-serif;
+}
+input[type=submit] {
+  background-color: #45a049;
+  opacity: 1;
+}
