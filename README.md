@@ -76,14 +76,14 @@ docker push rohandhanraj/mice
 
 # Deployment
 **Platform: [Heroku](https://mice-protein-expression.herokuapp.com/)**  
-**Code Repo: [GitHub](https://github.com/rohandhanraj/mice-protein-expression)**
+**Code Repo: [GitHub](https://github.com/rohan-dhanraj/MiceProteinExpression)**
 ## Pushing Code to GitHub
 ```bash
 git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/rohandhanraj/Admission_Prediction
+git remote add origin <Repo URL>
 git push -u origin main
 ```
 ## Deploying on Heroku
