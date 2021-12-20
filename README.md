@@ -32,12 +32,12 @@ The aim is to identify subsets of proteins that are discriminant between the cla
 
 ## Attribute Information:
 
-1 Mouse ID
-2..78 Values of expression levels of 77 proteins; the names of proteins are followed by â€œ_nâ€ indicating that they were measured in the nuclear fraction. For example: DYRK1A_n
-79 Genotype: control (c) or trisomy (t)
-80 Treatment type: memantine (m) or saline (s)
-81 Behavior: context-shock (CS) or shock-context (SC)
-82 Class: c-CS-s, c-CS-m, c-SC-s, c-SC-m, t-CS-s, t-CS-m, t-SC-s, t-SC-m
+1 Mouse ID  
+2..78 Values of expression levels of 77 proteins; the names of proteins are followed by 'n' indicating that they were measured in the nuclear fraction. For example: DYRK1A_n  
+79 Genotype: control (c) or trisomy (t)  
+80 Treatment type: memantine (m) or saline (s)  
+81 Behavior: context-shock (CS) or shock-context (SC)  
+82 Class: c-CS-s, c-CS-m, c-SC-s, c-SC-m, t-CS-s, t-CS-m, t-SC-s, t-SC-m  
 
 # Commands to run the model on local machine
 ## Creating a virtual environment for the model
